@@ -1,0 +1,75 @@
+--------------------------------------------------------------
+for (int i = 1; i < 31; i++)
+{
+    Console.WriteLine(i);
+}
+--------------------------------------------------------------
+for (int i = 1; i <= 100; i++)
+{
+    if (i % 2 != 0)
+    {
+        Console.WriteLine(i*i);
+    }
+}
+--------------------------------------------------------------
+for (int i = 1000; i <= 9999; i++)
+{
+    if (i % 379 == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
+--------------------------------------------------------------
+for (int i = 100; i < 999; i++)
+{
+    if (i % 5 == 0 && i % 6 == 0 || i % 11 == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
+--------------------------------------------------------------
+int iloscliczb = int.Parse(Console.ReadLine());
+int n = 0, suma = 0;
+for (int i = 0; i < iloscliczb; i++)
+{
+    a = int.Parse(Console.ReadLine());
+    suma += n;
+}
+--------------------------------------------------------------
+int n = int.Parse(Console.ReadLine());
+int suma = 0;
+for (int i = 0; i <= n; i++)
+{
+    if (i % 2 == 0)
+    {
+        suma += i;
+    }
+}
+--------------------------------------------------------------
+int n = int.Parse(Console.ReadLine());
+int suma = 0;
+for (int i = 10; i < n; i++)
+{
+    if (i % 2 != 0)
+    {
+        suma += i;
+    }
+}
+--------------------------------------------------------------
+double kasa = int.Parse(Console.ReadLine());
+double inwestycje = double.Parse(Console.ReadLine());
+double wynik = 0;
+double miesiace = kasa * 12;
+for (int i = 0; i <= kasa; i++)
+{
+    wynik += inwestycje * 6.00 / 100;
+}
+inwestycje += wynik;
+--------------------------------------------------------------
+int n = int.Parse(Console.ReadLine());
+int suma = 0;
+for (int i = 21; i <= (n - 1)*100 + 21; i += 100)
+{
+    suma += i;
+}
+--------------------------------------------------------------
